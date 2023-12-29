@@ -28,6 +28,7 @@ id    { printf("TOKEN: id\n"); }
 "*"   { printf("TOKEN: *\n"); }
 [1-9]+(.[1-9]+)?   { printf("TOKEN: num\n"); }
 [a-zA-Z][a-zA-Z0-9_]*    { printf("TOKEN: id\n"); }
+[ \t\n] { /*do nothing*/ }
 
 %%
 

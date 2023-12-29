@@ -1,0 +1,9 @@
+begin
+if 1 < 2 then 2.56 + 3
+
+if 3 < 4 then 
+    while 3.14 > 2 do
+        124.25 + 81
+else
+    abc := 43 + 76
+end
